@@ -1,0 +1,15 @@
+[package]
+name = "tokio-try-read-full"
+version = "0.1.0"
+authors = ["Travis Bischel <twmb@lavabit.com>"]
+description = "A future to read as many bytes as possible into a buffer"
+documentation = "https://docs.rs/tokio-try-read-full"
+repository = "https://github.com/twmb/tokio-try-read-full"
+readme = "README.md"
+keywords = ["futures", "future", "io", "async"]
+categories = ["asynchronous"]
+license = "MIT"
+
+[dependencies]
+futures = "0.1"
+tokio-io = "0.1"
