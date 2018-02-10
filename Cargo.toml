@@ -1,10 +1,10 @@
 [package]
-name = "tokio-try-read-full"
+name = "tokio-ioext"
 version = "0.1.0"
 authors = ["Travis Bischel <twmb@lavabit.com>"]
-description = "A future to read as many bytes as possible into a buffer"
-documentation = "https://docs.rs/tokio-try-read-full"
-repository = "https://github.com/twmb/tokio-try-read-full"
+description = "Niche extension functions for tokio-io"
+documentation = "https://docs.rs/tokio-ioext"
+repository = "https://github.com/twmb/tokio-ioext"
 readme = "README.md"
 keywords = ["futures", "future", "io", "async"]
 categories = ["asynchronous"]
